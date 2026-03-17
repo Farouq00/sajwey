@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SAJWEY — Bespoke Tailoring, Abuja</title>
+  <meta name="description" content="SAJWEY crafts bespoke kaftans and luxury tailoring for the discerning man. By appointment only. Abuja, Nigeria." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ══════════════════════ NAVBAR -->
+  <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="navbar__logo">
+      <a href="#hero" aria-label="SAJWEY Home">
+        <img src="sajwey-main-logo.png" alt="SAJWEY" class="navbar__logo-img" />
+      </a>
+    </div>
+
+    <!-- Desktop links -->
+    <ul class="navbar__links" id="navLinks" role="list">
+      <li><a href="#offerings">Collections</a></li>
+      <li><a href="#editorial">Tailoring</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#appointment" class="navbar__cta">Contact</a></li>
+    </ul>
+
+    <!-- Mobile toggle -->
+    <button class="navbar__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <!-- Mobile dropdown (compact, NOT full-screen) -->
+    <div class="navbar__dropdown" id="navDropdown" aria-hidden="true">
+      <ul role="list">
+        <li><a href="#offerings">Collections</a></li>
+        <li><a href="#editorial">Tailoring</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#appointment">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- ══════════════════════ HERO -->
+    <section class="hero" id="hero" aria-label="Hero">
+      <div class="hero__media">
+        <img
+          src="babbanRiga.jpeg"
+          alt="Man wearing a premium grey SAJWEY kaftan, seated outdoors"
+          class="hero__image"
+        />
+        <div class="hero__overlay"></div>
+      </div>
+      <div class="hero__content">
+        <p class="hero__eyebrow">Abuja, Nigeria</p>
+        <h1 class="hero__title">SAJWEY</h1>
+        <p class="hero__tagline">Refine Your Way</p>
+        <a href="#appointment" class="btn btn--outline">Book an Appointment</a>
+      </div>
+      <div class="hero__scroll-hint" aria-hidden="true">
+        <span class="hero__scroll-line"></span>
+      </div>
+    </section>
+
+    <!-- ══════════════════════ STATEMENT -->
+    <section class="statement" aria-label="Brand statement">
+      <div class="container">
+        <div class="statement__inner reveal">
+          <p class="statement__number">001</p>
+          <blockquote class="statement__text">
+            "Every stitch is a quiet declaration — of taste, of identity, of where you stand in the world."
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════ EDITORIAL -->
+    <section class="editorial" id="editorial" aria-label="Editorial feature">
+      <div class="editorial__grid">
+        <div class="editorial__image-wrap reveal">
+          <img
+            src="kaftan2.jpeg"
+            alt="Young man in a black SAJWEY kaftan with embroidered monogram"
+            class="editorial__image"
+          />
+          <div class="editorial__image-caption">
+            <span>SS 2025</span>
+            <span>The Black Monogram</span>
+          </div>
+        </div>
+        <div class="editorial__content reveal reveal--delay">
+          <p class="editorial__label">The Craft</p>
+          <h2 class="editorial__title">Bespoke<br /><em>Kaftans</em></h2>
+          <div class="editorial__divider"></div>
+          <p class="editorial__body">
+            At SAJWEY, we believe every man deserves to look as confident as he feels. We specialize in crafting
+            timeless pieces, kaftans, agbadas, and bespoke outfits that blend style with elegance.
+          </p>
+          <p class="editorial__body">
+            Our philosophy is simple: true confidence begins with knowing your body type and wearing clothes tailored
+            to compliment it. That's why every sajwey design is made with precision, ensuring the perfect balance between tradition,
+            modern style, and individuality.
+          </p>
+          <p class="editorial__body">
+            Our atelier in Abuja receives clients by appointment only — ensuring that every
+            engagement is unhurried, personal, and worthy of the garment that follows. We do not
+            mass-produce. We do not compromise.
+          </p>
+          <a href="#offerings" class="editorial__link">
+            Explore Collections <span aria-hidden="true">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════ OFFERINGS -->
+    <section class="offerings" id="offerings" aria-label="Product offerings">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-label">002</p>
+          <h2 class="section-title">The Collections</h2>
+        </div>
+        <div class="offerings__grid">
+
+          <article class="card reveal">
+            <div class="card__image-wrap">
+              <img src="sajwey2.jpeg" alt="Classic SAJWEY kaftan in grey" class="card__image" />
+            </div>
+            <div class="card__content">
+              <p class="card__number">01</p>
+              <h3 class="card__title">Classic Kaftans</h3>
+              <p class="card__desc">Timeless silhouettes rendered in premium fabrics. The foundation of every SAJWEY wardrobe.</p>
+            </div>
+          </article>
+
+          <article class="card reveal reveal--delay">
+            <div class="card__image-wrap">
+              <img src="sajwey1.jpeg" alt="Luxury SAJWEY monogram kaftan in black" class="card__image" />
+            </div>
+            <div class="card__content">
+              <p class="card__number">02</p>
+              <h3 class="card__title">Luxury Kaftans</h3>
+              <p class="card__desc">Elevated constructions with refined details — for occasions that demand distinction.</p>
+            </div>
+          </article>
+
+          <article class="card reveal reveal--delay-2">
+            <div class="card__image-wrap">
+              <img src="kaftan1.jpeg" alt="Corporate SAJWEY tailoring" class="card__image card__image--tint" />
+            </div>
+            <div class="card__content">
+              <p class="card__number">03</p>
+              <h3 class="card__title">Corporate Kaftans</h3>
+              <p class="card__desc">Authority and elegance in perfect proportion. Designed for the boardroom and beyond.</p>
+            </div>
+          </article>
+
+          <article class="card reveal reveal--delay-3">
+            <div class="card__image-wrap">
+              <img src="babbanRiga.jpeg" alt="Custom bespoke SAJWEY creation" class="card__image card__image--cool" />
+            </div>
+            <div class="card__content">
+              <p class="card__number">04</p>
+              <h3 class="card__title">Custom &amp; Bespoke</h3>
+              <p class="card__desc">A blank canvas. Your vision, our craft. Bring your fabric, your ideas, your story.</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════ PRICING -->
+    <section class="pricing" id="pricing" aria-label="Tailoring price list">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-label">003</p>
+          <h2 class="section-title">Tailoring Prices</h2>
+        </div>
+        <div class="pricing__table reveal">
+          <div class="pricing__row">
+            <span class="pricing__name">Plain 2 Piece <em> from</em></span>
+            <span class="pricing__dots" aria-hidden="true"></span>
+            <span class="pricing__price">₦30,000</span>
+          </div>
+          <div class="pricing__row">
+            <span class="pricing__name">Embroidered 2 Piece <em> from</em></span>
+            <span class="pricing__dots" aria-hidden="true"></span>
+            <span class="pricing__price">₦35,000</span>
+          </div>
+          <div class="pricing__row">
+            <span class="pricing__name">Agbada <em>(Babban Riga)</em></span>
+            <span class="pricing__dots" aria-hidden="true"></span>
+            <span class="pricing__price">₦50,000</span>
+          </div>
+          <div class="pricing__row">
+            <span class="pricing__name">Standard Trousers <em> from</em></span>
+            <span class="pricing__dots" aria-hidden="true"></span>
+            <span class="pricing__price">₦15,000</span>
+          </div>
+        </div>
+        <div class="pricing__footnotes reveal">
+          <p class="pricing__note">
+            <span class="pricing__dash" aria-hidden="true">—</span>
+            Prices listed are based on using your own fabric.
+          </p>
+          <p class="pricing__note">
+            <span class="pricing__dash" aria-hidden="true">—</span>
+            Production timeline: 7–14 working days.
+          </p>
+          <p class="pricing__note">
+            <span class="pricing__dash" aria-hidden="true">—</span>
+            Rush fee <br> 30% surcharge <br> 1-2 working days
+          </p><br>
+          <p class="pricing__note">
+            <span class="pricing__name" aria-hidden="true">Note:</span>
+            Additional costs depend on specific requests.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════ APPOINTMENT -->
+    <section class="appointment" id="appointment" aria-label="Book appointment">
+      <div class="appointment__backdrop">
+        <img src="sajwey2.jpeg" alt="" class="appointment__bg" aria-hidden="true" />
+        <div class="appointment__overlay"></div>
+      </div>
+      <div class="appointment__content reveal">
+        <p class="appointment__eyebrow">004 — Studio</p>
+        <h2 class="appointment__title">Appointments<br /><em>Only</em></h2>
+        <p class="appointment__body">
+          Visit our studio in Abuja to experience bespoke tailoring as it should be —
+          unhurried, personal, and crafted entirely around you.
+        </p>
+        <a
+          href="https://www.instagram.com/sajwey"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn btn--light"
+          aria-label="Contact SAJWEY on Instagram"
+        >
+          Contact on Instagram
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ══════════════════════ FOOTER -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <img src="sajwey-main-logo.png" alt="SAJWEY" class="footer__logo-img" />
+          <p class="footer__sub">Bespoke Tailoring</p>
+          <p class="footer__location">Abuja, Nigeria</p>
+        </div>
+        <nav class="footer__nav" aria-label="Footer navigation">
+          <ul role="list">
+            <li><a href="#offerings">Collections</a></li>
+            <li><a href="#editorial">Tailoring</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#appointment">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="footer__social">
+          <a
+            href="https://www.instagram.com/sajwey"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="footer__instagram"
+            aria-label="SAJWEY on Instagram"
+          >
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+              <circle cx="12" cy="12" r="4"/>
+              <circle cx="17.5" cy="6.5" r="0.5" fill="currentColor"/>
+            </svg>
+            @sajwey
+          </a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copy">&copy; 2026 SAJWEY. All rights reserved.</p>
+        <p class="footer__craft">Crafted with intention.</p>
+        <p class="footer__craft">
+        Designed & built by 
+        <a href="https://www.instagram.com/_farouq0" target="_blank" rel="noopener noreferrer" class="footer__credit">@_farouq0</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
